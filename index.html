@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "orange");
+  });
+});
+</script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioSite</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid d-flex">
+          <div class="logo">
+            <img src="./images/aa.ux2.png" alt="logo">
+          </div>
+        
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <section id="heroGrid">
+      <div id="shotOfMe" class="heroGridArea">
+        <div id="myShot">
+        <img src="https://via.placeholder.com/300" alt="picture of me">
+        </div>
+
+      </div>
+       
+      <div id="phoneFrame" class="heroGridArea">
+     
+        <div id="descWindow">
+        <p>I am a product designer and developer with a drive to make lives easier with my skillset. I’m based in Toronto, Canada</p>
+          </div>
+        <button class="active">Check Out My Work</button>
+
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        
+  <ul class="nav justify-content-start">
+    
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+    </footer>
+
+</body>
+<script src="js/index.js"></script>
+</html>

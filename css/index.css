@@ -1,0 +1,166 @@
+.header {
+    height: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: orange;
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+.myclass {
+    background-color: #f5ff68 !important;
+
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background: black;
+    height: 70px;
+}
+
+#descWindow {
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: lightblue;
+    left: 210px;
+    top: 265px;
+}
+
+#heroGrid {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "shotOfMe phoneFrame";
+}
+
+.heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+#shotOfMe {
+    grid-area: shotOfMe;
+}
+#myShot {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    padding: 25px;
+    max-width: 550px;
+    z-index: 100;
+}
+
+#phoneFrame {
+    grid-area: phoneFrame;
+    background-image: './images/handphoneframe.png';
+}
+
+
+
+
+  /*
+.picOfMe {
+    width: 50%;
+    height: auto;
+}
+
+.phoneFrame {
+    justify-content: right;
+}
+
+
+/*
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+.navigation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify-content: space-evenly;
+}
+
+ul {
+    
+    width: 50%;
+    margin-left: auto;
+    align-items: right;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+}*/
+
+/* Jonathan Edits */
+
+.logo, .nav {
+    display: inline-block;
+}
+
+.header {
+    margin: 0;
+}
+
+ul.nav .nav-item {
+    display:  inline-block;
+}
+
+.header .container-fluid.d-flex {
+    justify-content: space-between;
+}
