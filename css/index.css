@@ -12,8 +12,8 @@ button {
     justify-content: center;
     background-color: orange;
     position: absolute;
-    left: 210px;
-    top: 500px;
+    left: 300px;
+    top: 885px;
 }
 .myclass {
     background-color: #f5ff68 !important;
@@ -36,8 +36,16 @@ footer {
     width: 200px;
     border-radius: 10px;
     background-color: lightblue;
+    left: 310px;
+    top: 445px;
+}
+
+#ip14 {
+    position: absolute;
     left: 210px;
     top: 265px;
+    height: 500px;
+    width: 250px;
 }
 
 #heroGrid {
@@ -76,6 +84,11 @@ footer {
     background-image: './images/handphoneframe.png';
 }
 
+h1 {
+    font-size: 100px;
+    color: black;
+    justify-content: center;
+}
 
 
 
